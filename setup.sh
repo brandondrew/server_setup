@@ -18,8 +18,7 @@ install ruby
 # Z Shell #
 install zsh
 # change shell
-chsh
-# user input needed here... test to see if this breaks anything...
+chsh -s `which zsh`
 
 
 # TODO: use git or svn to slurp in all my standard config files
