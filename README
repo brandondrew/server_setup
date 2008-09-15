@@ -1,0 +1,21 @@
+####################################################################
+#								   #
+#			Server Setup Script			   #
+#								   #
+#			early alpha, v. 0.1			   #
+#								   #
+####################################################################
+
+
+# This is (currently) a very basic script.
+# It will have to be moved from github before
+#  I add any sensitive data (private keys, etc.)
+# If you have any good ideas for making this repo public, 
+#  but making .ssh directory and such things stored elsewhere,
+#  with making the script painful or useles, let me know please.
+
+
+### Goals ###
+# install packages I want
+# synchronize data I want on my servers
+# set up my preferences/configurations for things like zsh, emacs, git
