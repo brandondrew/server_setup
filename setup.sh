@@ -12,13 +12,27 @@ install emacs
 install git
 install screen
 install subversion
-install ruby
+
+# likely already installed on any LAMP stack, but just to be safe...
+install ufw
+install mysql
+install psql
+install sshd
+install apache2
+install php5
+install perl
+
 
 
 # Z Shell #
 install zsh
 # change shell
 chsh -s `which zsh`
+
+
+# Ruby on Rails #
+install ruby
+
 
 
 # TODO: use git or svn to slurp in all my standard config files
@@ -32,3 +46,4 @@ mkdir ~/bin
 
 # ??
 # cd() { builtin cd "$@"; print -D $PWD; }
+
